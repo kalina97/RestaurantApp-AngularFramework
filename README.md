@@ -1,2 +1,2 @@
 # RestaurantApp-AngularFramework
-Project designed with AngularJS Framework Vesion 7
+Project designed with AngularJS Framework Version 7
