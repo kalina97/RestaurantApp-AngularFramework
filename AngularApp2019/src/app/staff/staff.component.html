@@ -1,0 +1,24 @@
+<section id="feature" class="transparent-bg" >
+  <div class="container">
+    
+    <div class="clients-area center wow fadeInDown">
+      <h2>Introduction with Our Staff</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 wow fadeInDown" *ngFor="let s of staff" @hover>
+        <div class="clients-comments text-center">
+          <img src="{{s.image}}" class="img-circle" alt="Staff">
+          <h4><span>Name and Surname:</span> {{s.name}}</h4>
+          <h4><span>Position: </span>{{s.occupation}}</h4>
+          <h4><span>Age: </span>{{s.age}}</h4> 
+          <h4><i class="glyphicon glyphicon-envelope"></i> <span> {{s.email}}</span></h4>
+          
+        </div>
+      </div>
+     
+     
+    </div>
+  </div>
+  <!--/.container-->
+</section>

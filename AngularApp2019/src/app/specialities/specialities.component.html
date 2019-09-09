@@ -1,0 +1,28 @@
+
+    <div class="container">
+      <div class="center wow fadeInDown">
+        <h2>Our Specialities</h2>
+      </div>
+
+      <div class="row" id="uredu">
+
+        <div id="opad" class="col-lg-12" *ngFor="let s of specialities" @slideLeft>
+          <div class="media services-wrap wow fadeInDown">
+            <div class="pull-left">
+              <a data-lightbox="gallery" href="{{s.image}}"><img width="300px" height="200px" src="{{s.image}}" alt="Speciality"></a>
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><b>{{s.name}}</b></h3>
+              <p class="dot">{{s.desc | uppercase}}</p>
+              <span class="dot"><i><b>Price:</b> {{s.price | currency:'USD'}}</i></span>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+ 
+  <!--/#services-->

@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/dessert-1.jpg",
+        "name" : "Fruit Cake",
+        "ingredients":"Fruit, Milk, Sugar",
+        "price":12
+    },
+    {
+        "id":2,
+        "image" : "assets/images/dessert-2.jpg",
+        "name" : "Strawberry Pancakes",
+        "ingredients":"Strawberries, Milk, Sugar",
+        "price":17
+    },
+    {
+        "id":3,
+        "image" : "assets/images/dessert-3.jpg",
+        "name" : "Raspberry Cake",
+        "ingredients":"Raspberries, Milk, Sugar",
+        "price":15
+    },
+    {
+        "id":4,
+        "image" : "assets/images/dessert-5.jpg",
+        "name" : "Cherry Cake",
+        "ingredients":"Cherries, Milk, Sugar",
+        "price":18
+    },
+    {
+        "id":5,
+        "image" : "assets/images/dessert-6.jpg",
+        "name" : "Banana Split",
+        "ingredients":"Bananas, Milk, Sugar",
+        "price":19
+    },
+    {
+        "id":6,
+        "image" : "assets/images/dessert-8.jpg",
+        "name" : "Cream Puffs",
+        "ingredients":"Cream, Milk, Sugar",
+        "price":14
+    },
+    {
+        "id":7,
+        "image" : "assets/images/dessert-9.jpg",
+        "name" : "Choco Cake",
+        "ingredients":"Chocolate, Milk, Sugar",
+        "price":22
+    },
+    {
+        "id":8,
+        "image" : "assets/images/dessert-4.jpg",
+        "name" : "Fruit Mix",
+        "ingredients":"Fruit, Cream, Sugar",
+        "price":16
+    }
+]

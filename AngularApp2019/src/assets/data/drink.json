@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/drink-5.jpg",
+        "name" : "Lemon Juice",
+        "ingredients":"Lemon, Sugar, Water",
+        "price":6
+    },
+    {
+        "id":2,
+        "image" : "assets/images/drink-4.jpg",
+        "name" : "Beer",
+        "ingredients":"Hops, Water",
+        "price":4
+    },
+    {
+        "id":3,
+        "image" : "assets/images/drink-8.jpg",
+        "name" : "Guava Juice",
+        "ingredients":"Guavas, Sugar, Water",
+        "price":5
+    },
+    {
+        "id":4,
+        "image" : "assets/images/drink-3.jpg",
+        "name" : "Cocktail",
+        "ingredients":"Fruits, Sugar, Water",
+        "price":7
+    },
+    {
+        "id":5,
+        "image" : "assets/images/drink-55.jpg",
+        "name" : "Apple Juice",
+        "ingredients":"Apple, Sugar, Water",
+        "price":3
+    },
+    {
+        "id":6,
+        "image" : "assets/images/drink-44.jpg",
+        "name" : "Coca Cola",
+        "ingredients":"Caramel, Sugar, Water",
+        "price":8
+    },
+    {
+        "id":7,
+        "image" : "assets/images/drink-2.jpg",
+        "name" : "Wine",
+        "ingredients":"Grapes, Sugar, Water",
+        "price":5
+    },
+    {
+        "id":8,
+        "image" : "assets/images/drink-6.jpg",
+        "name" : "Strawberry Juice",
+        "ingredients":"Strawberries, Sugar, Water",
+        "price":9
+    }
+
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/chef-1.jpg",
+        "occupation" : "Head Chef",
+        "name":"Thomas Smith",
+        "age":32,
+        "email":"thomass@gmail.com"
+    },
+    {
+        "id":2,
+        "image" : "assets/images/chef-2.jpg",
+        "occupation" : "Assistant Chef",
+        "name":"Francis Gibson",
+        "age":23,
+        "email":"francisg@gmail.com"
+    },
+    {
+        "id":3,
+        "image" : "assets/images/chef-3.jpg",
+        "occupation" : "Assistant Chef",
+        "name":"Angelo Maestro",
+        "age":26,
+        "email":"angelom@gmail.com"
+    },
+    {
+        "id":4,
+        "image" : "assets/images/person_3.jpg",
+        "occupation" : "Tasty Restaurant Director",
+        "name":"Mark Thompson",
+        "age":46,
+        "email":"markt@gmail.com"
+    },
+    {
+        "id":5,
+        "image" : "assets/images/person_2.jpg",
+        "occupation" : "Restaurant Manager",
+        "name":"Johnny Williams",
+        "age":38,
+        "email":"johnnyw@gmail.com"
+    },
+    {
+        "id":6,
+        "image" : "assets/images/per.jpg",
+        "occupation" : "Waiter",
+        "name":"Jason Cole",
+        "age":25,
+        "email":"jasonc@gmail.com"
+    },
+    {
+        "id":7,
+        "image" : "assets/images/image_5.jpg",
+        "occupation" : "Chef",
+        "name":"Bill McCartney",
+        "age":33,
+        "email":"billmc@gmail.com"
+    }
+]

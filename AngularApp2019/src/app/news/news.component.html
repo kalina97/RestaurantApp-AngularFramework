@@ -1,0 +1,35 @@
+<section id="blog" class="container">
+  <div class="center">
+    <h2>Restaurant News</h2>
+    
+  </div>
+
+  <div class="blog">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="ika" class="blog-item" *ngFor="let n of news">
+            <img src="{{n.image}}" width="700px" height="370px" alt="" />
+          <div class="row">
+           
+           
+            <div class="col-xs-12 col-sm-12 blog-content">
+             
+          
+              <h2 id="neza"><a routerLink="{{n.id}}">{{n.heading}}</a></h2>
+              
+              <a class="btn btn-primary readmore" routerLink="{{n.id}}">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--/.blog-item-->
+
+
+      </div>
+      <!--/.col-md-8-->
+
+     
+    </div>
+    <!--/.row-->
+  </div>
+</section>
+<!--/#blog-->

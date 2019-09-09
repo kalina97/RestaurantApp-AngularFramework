@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/image_4.jpg",
+        "name" : "Grilled Beef Steak",
+        "ingredients":"Steak, Oil, Salt, Pepper",
+        "price":30
+    },
+    {
+        "id":2,
+        "image" : "assets/images/img1.jpg",
+        "name" : "Savory Watercress Chinese Pancakes",
+        "ingredients":"Oil, Watercress, Salt, Shallot",
+        "price":24
+    },
+    {
+        "id":3,
+        "image" : "assets/images/dish-4.jpg",
+        "name" : "Beef Ribs Steak",
+        "ingredients":"Steak, Oil, Salt",
+        "price":32
+    },
+    {
+        "id":4,
+        "image" : "assets/images/dish-12.jpg",
+        "name" : "Soup With Vegetables",
+        "ingredients":"Vegetables, Water, Salt",
+        "price":19
+    },
+    {
+        "id":5,
+        "image" : "assets/images/img2.jpg",
+        "name" : "Asian Hoisin Pork",
+        "ingredients":"Pork, Oil, Salt, Pepper",
+        "price":22
+    },
+    {
+        "id":6,
+        "image" : "assets/images/img4.JPG",
+        "name" : "Spicy Fried Rice And Bacon",
+        "ingredients":"Rice, Oil, Salt, Pepper, Bacon",
+        "price":31
+    },
+    {
+        "id":7,
+        "image" : "assets/images/dish-7.jpg",
+        "name" : "Roast Chicken",
+        "ingredients":"Chicken, Oil, Salt, Pepper",
+        "price":26
+    },
+    {
+        "id":8,
+        "image" : "assets/images/img5.jpg",
+        "name" : "Lobster With Garnish",
+        "ingredients":"Lobster, Oil, Salt, Pepper",
+        "price":21
+    }
+]

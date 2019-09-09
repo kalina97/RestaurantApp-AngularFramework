@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "href" : "",
+        "name" : "Home"
+    },
+    {
+        "id":2,
+        "href" : "/specialities",
+        "name" : "Specialities"
+    },
+    {
+        "id":3,
+        "href" : "/reservation",
+        "name" : "Reservations"
+    },
+    {
+        "id":4,
+        "href" : "/blog",
+        "name" : "Blog"
+    },
+    {
+        "id":5,
+        "href" : "/staff",
+        "name" : "Our Staff"
+    }
+]

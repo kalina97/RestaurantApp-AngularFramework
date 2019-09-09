@@ -1,0 +1,74 @@
+
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="1000px" height="500px" frameborder="0" style="border:0;margin-left:470px;" allowfullscreen></iframe>
+      </div>
+      
+      <section id="contact-page" @scale>
+        <div class="container">
+          <div class="center">
+            <h2>Reserve a table</h2>
+          
+          </div>
+          <div class="row contact-wrap">
+            <div class="col-sm-8 col-sm-offset-2">
+              
+              <div id="errormessage"></div>
+              <form class="contactForm" [formGroup]="fileGroup" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                  <label for="">Name</label>
+                  <input  type="text"  name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                   formControlName="name" #name data-msg="Please enter at least 4 chars" />
+                  <div *ngIf="!fileGroup.get('name').valid  && fileGroup.get('name').touched"> 
+                    <p class="greska">Invalid name format!</p>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                  <input type="email" #email class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                   formControlName="email" data-msg="Please enter a valid email" />
+                  <div *ngIf="!fileGroup.get('email').valid  && fileGroup.get('email').touched">
+                    <p class="greska"> Please enter a valid email!</p>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Date</label>
+                    <input type="date" #date formControlName="dates" class="form-control" placeholder="Date">
+                    <div *ngIf="!fileGroup.get('dates').valid  && fileGroup.get('dates').touched">
+                      <p class="greska">Date is Required Field!</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Time</label>
+                    <input type="time" #time formControlName="times" class="form-control" placeholder="Time">
+                    <div *ngIf="!fileGroup.get('times').valid  && fileGroup.get('times').touched">
+                    <p class="greska">Time is Required Field!</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                <label for="">Guests</label>
+                <select class="form-control" #guests formControlName="guests">
+                     <option value="0">Choose...</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4+</option>
+
+                </select>
+                <div *ngIf="!fileGroup.get('guests').valid  && fileGroup.get('guests').touched">
+                <p class="greska">Please choose number of guests!</p>
+                </div>
+                </div>
+
+                <div class="text-center">
+                  <button [disabled]="!fileGroup.valid" type="submit" id="butam" class="btn btn-primary btn-lg" >Reserve</button>
+                </div>
+                
+              </form>
+             <p class="lika">{{State}}</p>
+            </div>
+          </div>
+          <!--/.row-->
+        </div>
+        <!--/.container-->
+      </section>

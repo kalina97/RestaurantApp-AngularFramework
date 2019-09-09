@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/image_1.jpg",
+        "heading" : "New Assistant Chef",
+        "date":"2019-07-27",
+        "desc":"He is Bill McCartney and he wil become our new assistant chef for a few days... "
+    },
+    {
+        "id":2,
+        "image" : "assets/images/image_4.jpg",
+        "heading" : "New Dish Soon",
+        "date":"2019-07-28",
+        "desc":"This is a delicious grill and our new dish soon. Big surprise for all our customers. "
+    },
+    {
+        "id":3,
+        "image" : "assets/images/image_6.jpg",
+        "heading" : "New Speciality",
+        "date":"2019-07-29",
+        "desc":"On our Exclusive menu will be able this tasty dish soon. You surely will enjoy! "
+    },
+    {
+        "id":4,
+        "image" : "assets/images/image_13.jpg",
+        "heading" : "New Cocktail Man",
+        "date":"2019-07-27",
+        "desc":"We were looking for cocktail man for a long time. We finally found him."
+    },
+    {
+        "id":5,
+        "image" : "assets/images/res.jpg",
+        "heading" : "We need a waiter ",
+        "date":"2019-07-31",
+        "desc":"Due to the development of the restaurant, we need a new experienced waiter."
+    },
+    {
+        "id":6,
+        "image" : "assets/images/image_22.jpg",
+        "heading" : "New Cocktail",
+        "date":"2019-07-26",
+        "desc":"Another great drink on our menu. Order this cocktail and enjoy it."
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "image" : "assets/images/image_7.jpg",
+        "name" : "Beef Steak",
+        "desc":"A beef steak is a flat cut of beef, with parallel faces spaced to a thickness of 1 to 5 cm, with a raw mass in common restaurant service ranging from 4 to 20 ounces. Beef steaks are usually grilled, pan-fried, or broiled. ",
+        "price":12
+    },
+    {
+        "id":2,
+        "image" : "assets/images/dish-5.jpg",
+        "name" : "Chop Suey",
+        "desc":"Chop suey is a dish in American Chinese cuisine and other forms of overseas Chinese cuisine, consisting of meat and eggs, cooked quickly with vegetables such as bean sprouts, cabbage, and celery and bound in a starch-thickened sauce. It is typically serves with rice.",
+        "price":7
+    },
+    {
+        "id":3,
+        "image" : "assets/images/dish-4.jpg",
+        "name" : "Beef Ribs Steak",
+        "desc":"A rib steak is a beef steak sliced from the rib primal of a beef animal, with rib bone attached.The rib eye or ribeye was originally, as the name implies, the center portion of the rib steak, without the bone.",
+        "price":8
+    },
+    {
+        "id":4,
+        "image" : "assets/images/dish-6.jpg",
+        "name" : "Roast Chicken",
+        "desc":"Roast chicken is chicken prepared as food by roasting whether in a home kitchen, over a fire, or with a professional rotisserie (rotary spit). Generally, the chicken is roasted with its own fat and juices by circulating the meat during roasting.Roast chicken is a dish that appears in a wide variety of cuisines worldwide.",
+        "price":6
+    },
+    {
+        "id":5,
+        "image" : "assets/images/dish-7.jpg",
+        "name" : "Whole Roast Chicken",
+        "desc":"This is a whole roasted chicken. It is prone to strong fire. This chicken is very delicious and crispy.This meal is being prepared all over the world.",
+        "price":9
+    },
+    {
+        "id":6,
+        "image" : "assets/images/dish-9.jpg",
+        "name" : "Vegetable Salad",
+        "desc":"This is a salad of vegetables. A salad is a dish consisting of a mixture of small pieces of food, usually vegetables. However, different varieties of salad may contain virtually any type of ready-to-eat food. Salads are typically served at room temperature or chilled.",
+        "price":14
+    },
+    {
+        "id":7,
+        "image" : "assets/images/dish-8.jpg",
+        "name" : "Lobster Meat",
+        "desc":"Lobsters comprise a family of large marine crustaceans. Lobsters have long bodies with muscular tails, and live in crevices or burrows on the sea floor. This dish is very useful for people who want to live healthy life.",
+        "price":16
+    },
+    {
+        "id":8,
+        "image" : "assets/images/dish-11.jpg",
+        "name" : "Pasta",
+        "desc":"Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.Pasta is typically made from an unleavened dough of a durum wheat flour mixed with water or eggs, and formed into sheets or various shapes, then cooked by boiling or baking. Some pastas can be made using rice flour in place of wheat flour to yield a different taste.",
+        "price":11
+    }
+]
